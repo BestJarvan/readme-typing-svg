@@ -6,6 +6,9 @@
       "maxDuration": 10
     }
   },
+  "routes": [
+    { "src": "/(.*)",  "dest": "/api/index.php" }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/api/index.php" }
   ]
