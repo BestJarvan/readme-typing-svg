@@ -14,9 +14,9 @@
   "homepage": "https://github.com/DenverCoder1/readme-typing-svg/",
   "autoload": {
     "classmap": [
-      "src/models/",
-      "src/views/",
-      "src/controllers/"
+      "api/models/",
+      "api/views/",
+      "api/controllers/"
     ]
   },
   "require": {

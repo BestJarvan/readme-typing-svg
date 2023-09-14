@@ -20,7 +20,7 @@ final class OptionsTest extends TestCase
             "width" => "380",
             "height" => "50",
         ];
-        print_r(new RendererModel("src/templates/main.php", $params));
+        print_r(new RendererModel("api/templates/main.php", $params));
     }
 
     /**
@@ -32,7 +32,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "font" => "Open Sans",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals("Open Sans", $model->font);
     }
 
@@ -45,7 +45,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "color" => "000000",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals("#000000", $model->color);
     }
 
@@ -58,7 +58,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "color" => "00000",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals("#36BCF7", $model->color);
     }
 
@@ -71,7 +71,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "background" => "00000033",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals("#00000033", $model->background);
     }
 
@@ -84,7 +84,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "background" => "00000",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals("#00000000", $model->background);
     }
 
@@ -97,7 +97,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "size" => "18",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(18, $model->size);
     }
 
@@ -112,7 +112,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "size" => "0",
         ];
-        print_r(new RendererModel("src/templates/main.php", $params));
+        print_r(new RendererModel("api/templates/main.php", $params));
     }
 
     /**
@@ -124,7 +124,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "height" => "80",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(80, $model->height);
     }
 
@@ -139,7 +139,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "height" => "x",
         ];
-        print_r(new RendererModel("src/templates/main.php", $params));
+        print_r(new RendererModel("api/templates/main.php", $params));
     }
 
     /**
@@ -151,7 +151,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "width" => "500",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(500, $model->width);
     }
 
@@ -166,7 +166,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "width" => "-1",
         ];
-        print_r(new RendererModel("src/templates/main.php", $params));
+        print_r(new RendererModel("api/templates/main.php", $params));
     }
 
     /**
@@ -178,7 +178,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "center" => "true",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(true, $model->center);
     }
 
@@ -191,7 +191,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "center" => "other",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(false, $model->center);
     }
 
@@ -204,7 +204,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "vCenter" => "true",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(true, $model->vCenter);
     }
 
@@ -217,7 +217,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "vCenter" => "other",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(false, $model->vCenter);
     }
 
@@ -230,7 +230,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "duration" => "500",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(500, $model->duration);
     }
 
@@ -245,7 +245,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "duration" => "-1",
         ];
-        print_r(new RendererModel("src/templates/main.php", $params));
+        print_r(new RendererModel("api/templates/main.php", $params));
     }
 
     /**
@@ -257,7 +257,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "pause" => "500",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(500, $model->pause);
     }
 
@@ -270,7 +270,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "pause" => "0",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(0, $model->pause);
     }
 
@@ -285,7 +285,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "pause" => "-1",
         ];
-        print_r(new RendererModel("src/templates/main.php", $params));
+        print_r(new RendererModel("api/templates/main.php", $params));
     }
 
     /**
@@ -297,7 +297,7 @@ final class OptionsTest extends TestCase
         $params = [
             "lines" => "text",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(true, $model->repeat);
 
         // true
@@ -305,7 +305,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "repeat" => "true",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(true, $model->repeat);
 
         // other / false
@@ -313,7 +313,7 @@ final class OptionsTest extends TestCase
             "lines" => "text",
             "repeat" => "other",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(false, $model->repeat);
     }
 
@@ -326,7 +326,7 @@ final class OptionsTest extends TestCase
             "lines" => "text;text2",
             "separator" => ";;",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(";;", $model->separator);
         $this->assertEquals(["text;text2"], $model->lines);
 
@@ -334,7 +334,7 @@ final class OptionsTest extends TestCase
             "lines" => "text;;tex;t2",
             "separator" => ";;",
         ];
-        $model = new RendererModel("src/templates/main.php", $params);
+        $model = new RendererModel("api/templates/main.php", $params);
         $this->assertEquals(";;", $model->separator);
         $this->assertEquals(["text", "tex;t2"], $model->lines);
     }

@@ -30,7 +30,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "GrahamCampbell\\ResultType\\": "src/"
+                    "GrahamCampbell\\ResultType\\": "api/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -101,7 +101,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "PhpOption\\": "src/PhpOption/"
+                    "PhpOption\\": "api/PhpOption/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -434,7 +434,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Dotenv\\": "src/"
+                    "Dotenv\\": "api/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -507,7 +507,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Instantiator\\": "src/Doctrine/Instantiator/"
+                    "Doctrine\\Instantiator\\": "api/Doctrine/Instantiator/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -576,10 +576,10 @@
             "type": "library",
             "autoload": {
                 "files": [
-                    "src/DeepCopy/deep_copy.php"
+                    "api/DeepCopy/deep_copy.php"
                 ],
                 "psr-4": {
-                    "DeepCopy\\": "src/DeepCopy/"
+                    "DeepCopy\\": "api/DeepCopy/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -691,7 +691,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -742,7 +742,7 @@
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -817,7 +817,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -879,7 +879,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -943,7 +943,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1002,7 +1002,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1061,7 +1061,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1150,10 +1150,10 @@
             },
             "autoload": {
                 "files": [
-                    "src/Framework/Assert/Functions.php"
+                    "api/Framework/Assert/Functions.php"
                 ],
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1223,7 +1223,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1279,7 +1279,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1335,7 +1335,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1392,7 +1392,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1465,7 +1465,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1522,7 +1522,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1590,7 +1590,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1652,7 +1652,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1733,7 +1733,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1792,7 +1792,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1850,7 +1850,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1905,7 +1905,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1960,7 +1960,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2023,7 +2023,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2078,7 +2078,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2131,7 +2131,7 @@
             },
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2182,7 +2182,7 @@
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "src/"
+                    "api/"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
