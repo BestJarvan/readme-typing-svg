@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/index.php": {
+    "src/index.php": {
       "memory": 128,
       "maxDuration": 10
     }
